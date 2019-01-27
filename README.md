@@ -1,13 +1,13 @@
 # Currency Converter
 
-## Usage
+## Usage
 
-### Local
+### Local
 
 To setup first run, run `npm install`. Then `npm run start` to start application on localhost.
 This app run on port `3000`.
 
-### Docker
+### Docker
 
 This application can run inside a docker container.
 
@@ -34,4 +34,4 @@ Type checking is provided by TypeScript type checking.
 
 For integration tests see `src/__tests__` folder, while unit tests are spread inside `src` with `.test.js` suffix.
 
-To execute tests via CLI, run `npm run test`.
+To execute tests via CLI, run `npm run test`. To execute style guide and type checking run `npm run lint`
